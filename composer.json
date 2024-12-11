@@ -1,0 +1,26 @@
+{
+    "name": "alejandro/pruebas-biblioteca",
+    "description": "pruebas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alejandro\\PruebasBiblioteca\\": "./",
+            "Controllers\\": "./Controllers",
+            "Models\\": "./Models",
+            "Repositories\\": "./Repositories",
+            "Services\\": "./Services",
+            "Lib\\": "./Lib"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alejandro Cabrera",
+            "email": "alejandrocabrerabarea@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
